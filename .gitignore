@@ -91,3 +91,12 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+JenkinsTest.iml
+.idea/project-template.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/encodings.xml
+.idea/description.html
+.idea/compiler.xml
+.idea/vcs.xml
+target/classes/application.yml
