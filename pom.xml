@@ -51,7 +51,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/rvolo/nexus-artifact</url>
+            <url>https://maven.pkg.github.com/rvolo/DevOpsTest</url>
         </repository>
     </distributionManagement>
 </project>
