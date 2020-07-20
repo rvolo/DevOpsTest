@@ -28,10 +28,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-    - name: Build and push Docker images
-      uses: docker/build-push-action@v1
-      with:
-        username: rvolo
-        password: ${{ github.token }}
-        repository: myorg/myrepository
-        tags: latest
+      - name: Build and push Docker images
+        uses: docker/build-push-action@v1
+        with:
+          username: rvolo
+          password: ${{ github.token }}
+          repository: myorg/myrepository
+          tags: latest
