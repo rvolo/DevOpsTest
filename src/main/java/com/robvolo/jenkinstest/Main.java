@@ -14,6 +14,6 @@ public class Main {
 
 	@GetMapping("/")
 	public String testRequest() {
-		return "JenkinsTestServer running";
+		return "SpringTestServer running";
 	}
 }

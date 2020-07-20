@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.robvolo</groupId>
-    <artifactId>JenkinsTest</artifactId>
+    <artifactId>SpringTestServer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Jenkins Test Server</name>
-    <description>Test spring server to build with jenkins</description>
+    <name>Spring Test Server</name>
+    <description>Test spring server to build with github actions</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
