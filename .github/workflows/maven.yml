@@ -36,3 +36,4 @@ jobs:
           repository: rvolo/devopstest
           registry: docker.pkg.github.com
           tags: latest
+          auto_tag: true
