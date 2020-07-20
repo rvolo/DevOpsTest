@@ -33,6 +33,6 @@ jobs:
         with:
           username: rvolo
           password: ${{ github.token }}
-          repository: rvolo/DevOpsTest
+          repository: rvolo/devopstest
           registry: docker.pkg.github.com
           tags: latest
