@@ -33,7 +33,7 @@ jobs:
         with:
           username: rvolo
           password: ${{ github.token }}
-          repository: rvolo/devopstest
+          repository: rvolo/devopstest/springtestserver
           registry: docker.pkg.github.com
           tags: latest
           auto_tag: true
