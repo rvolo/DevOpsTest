@@ -36,3 +36,5 @@ jobs:
           repository: rvolo/devopstest/springtestserver
           registry: docker.pkg.github.com
           tag_with_sha: true
+          tags: latest
+
