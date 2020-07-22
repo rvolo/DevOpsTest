@@ -46,12 +46,22 @@
             </plugin>
         </plugins>
     </build>
-         
+
+    <scm>
+        <connection>scm:git:git://github.com/rvolo/DevOpsTest</connection>
+        <developerConnection>scm:git:git://github.com/rvolo/DevOpsTest</developerConnection>
+    </scm>
+
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/rvolo/DevOpsTest</url>
         </repository>
+        <snapshotRepository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/rvolo/DevOpsTest</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>
