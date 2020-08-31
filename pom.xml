@@ -47,8 +47,7 @@
     </build>
 
     <scm>
-        <connection>scm:git:git://github.com/rvolo/DevOpsTest</connection>
-        <developerConnection>scm:git:git://github.com/rvolo/DevOpsTest</developerConnection>
+        <connection>scm:git:git://github.com/rvolo/DevOpsTest.git</connection>
     </scm>
 
     <distributionManagement>
