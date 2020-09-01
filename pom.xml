@@ -4,7 +4,7 @@
 
     <groupId>com.robvolo</groupId>
     <artifactId>SpringTestServer</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.4</version>
     <packaging>jar</packaging>
 
     <name>Spring Test Server</name>
@@ -48,7 +48,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/rvolo/DevOpsTest.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>SpringTestServer-0.0.4</tag>
   </scm>
 
     <distributionManagement>
