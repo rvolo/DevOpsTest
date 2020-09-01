@@ -18,14 +18,13 @@ jobs:
           server-id: github
           settings-path: ${{ github.workspace }}
 
+      - name: Configure Git user
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+
       - name: Build release with Maven
-        run: mvn -B release:prepare
-
-      - name: Build preform with Maven
-        run: mvn -B release:perform
-
-      - name: Publish to GitHub Packages Apache Maven
-        run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+        run: mvn -B release:prepare release:perform
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
