@@ -18,11 +18,6 @@ jobs:
           server-id: github
           settings-path: ${{ github.workspace }}
 
-      - name: Configure Git user
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-
       - name: Build release with Maven
         run: mvn -B release:prepare
 
